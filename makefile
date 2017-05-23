@@ -7,7 +7,7 @@ APP_SOURCE   = ./src/scripts/app.js
 
 SRC_FILES    = $(shell find ./src -type f -not -path '*/\.*') $(APP_ICON) $(APP_HTML)
 
-WEB_LOCATION = www/meg/bob
+WEB_LOCATION = www/bob
 WEB_USER     = admin
 WEB_SERVER   = nestor
 

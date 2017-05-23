@@ -25,8 +25,6 @@ export class Page extends React.Component {
 		return (
 				<BackgroundImage image={bg}>
 
-					<MainToolBar/>
-
 					<div>
 						{this.props.children}
 					</div>
