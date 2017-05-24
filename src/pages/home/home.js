@@ -31,16 +31,11 @@ module.exports = class Home extends React.Component {
 
 
 		return (
-			<Page>
-				<div id="home">
-					<Grid>
-						<Row>
-							bOb
-						</Row>
-					</Grid>
-				</div>
-
-			</Page>
+			<div id="home">
+				<h1 style="color='white'">
+					bOb
+				</h1>
+			</div>
 		);
 	}
 
